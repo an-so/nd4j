@@ -605,7 +605,7 @@
         <fbs.version>1.2.0-3f79e055</fbs.version>
         <skipTestResourceEnforcement>false</skipTestResourceEnforcement> <!-- Test resource profile must be enabled unless using -DskipTests etc -->
         <sonar.projectKey>an-so_nd4j</sonar.projectKey>
-        <sonar.moduleKey>${artifactId}</sonar.moduleKey>
+        <sonar.moduleKey>${project.artifactId}</sonar.moduleKey>
         <sonar.organization>an-so</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
